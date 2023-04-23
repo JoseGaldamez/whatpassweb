@@ -1,0 +1,26 @@
+.empty_components {
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.button_create_new {
+    background-color: #62C3C6;
+    border: none;
+    color: white;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+
+.button_create_new:hover {
+    background-color: #62C3C6;
+    color: white;
+    opacity: 1;
+}
+
+.button_create_new span {
+    background-color: #62C3C6;
+    border: none;
+    color: white;
+}

@@ -1,0 +1,39 @@
+.central_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.central_form .central_form__login {
+    background-color: white;
+    width: 95%;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.central_form .central_form__login .login-form-button {
+    width: 100%;
+    background-color: #62C3C6;
+}
+
+.central_form .central_form__login .login-form-forgot {
+    float: right;
+}
+
+.central_form__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #62C3C6;
+    border-color: #62C3C6;
+}
+
+.login-form-forgot {
+    color: #62C3C6;
+}
